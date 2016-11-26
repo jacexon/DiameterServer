@@ -16,7 +16,7 @@ class cc_test_server extends NodeManager {
             System.out.println("Usage: <host-id> <realm> [<port>]");
             return;
         }
-
+//fdsfsdfsd
         String host_id = args[0];
         String realm = args[1];
         int port;
