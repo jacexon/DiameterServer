@@ -11,12 +11,14 @@ class cc_test_server extends NodeManager {
         super(node_settings);
     }
 
+
+    //Kamil
     public static final void main(String args[]) throws Exception {
         if(args.length<2) {
             System.out.println("Usage: <host-id> <realm> [<port>]");
             return;
         }
-//fdsfsdfsd
+
         String host_id = args[0];
         String realm = args[1];
         int port;
